@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{33e477bb-69ae-4d5c-9bf7-0321a0ab1d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\BodyReader">
+      <UniqueIdentifier>{7bb14a22-20c7-42f8-bcbf-72efff970bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Rapidxml">
+      <UniqueIdentifier>{ae75c61b-307a-41c6-a905-b911111cb3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Decrypter">
+      <UniqueIdentifier>{772a8e1e-c680-4772-9779-cdaa13856bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Sqllite">
+      <UniqueIdentifier>{bed18bf9-9e44-4792-abc7-71f4a1f20383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{b297f2bd-cc9a-4f5b-9b01-6034f18b829a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Cache">
+      <UniqueIdentifier>{f6cb3143-8794-4a36-8fe8-e7d4b1984c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Constants">
+      <UniqueIdentifier>{acda813a-86dc-41fa-b916-887b099c8f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Data">
+      <UniqueIdentifier>{26d67288-b723-4c9b-bb0b-0d3026b4ad10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct">
+      <UniqueIdentifier>{9aca6b74-31f7-4820-bec0-9c969838b53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Levels">
+      <UniqueIdentifier>{ce335998-e750-482c-8f8c-1e025f453f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects">
+      <UniqueIdentifier>{f7cffeb7-a0cf-4052-a49c-e128af70e37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Factories">
+      <UniqueIdentifier>{97684bae-da37-4612-a7fd-a205e8166483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech">
+      <UniqueIdentifier>{5ea9f98d-ec73-4f17-9701-55648865a4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Shells">
+      <UniqueIdentifier>{271b00f2-be7a-4a07-8e56-76c60e96b82c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Mechs">
+      <UniqueIdentifier>{c2a4e676-7fa4-4cbe-a8fd-bb83c3ffe80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Spike">
+      <UniqueIdentifier>{4d290446-aeaa-49d0-8383-1ca9ee398140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Saw">
+      <UniqueIdentifier>{0e20ceb8-ffb7-494a-a688-998af792b721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Decorators">
+      <UniqueIdentifier>{abdb899e-6412-440b-a678-169b8b880c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Blocks">
+      <UniqueIdentifier>{18f5a9c2-6dde-4c57-beb1-3af321ac453c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Impeller">
+      <UniqueIdentifier>{c6bdcda0-e488-4658-9199-da6fc78cead6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Interactor">
+      <UniqueIdentifier>{8d84c6c2-ce88-4464-ae7b-698905b93337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\SubTypes">
+      <UniqueIdentifier>{f3eda957-3e37-433a-a51d-14986012635c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Levels\Chunk">
+      <UniqueIdentifier>{4e73d1cd-e8e2-440a-aa67-6c8f8bf8075f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Levels\Level">
+      <UniqueIdentifier>{21caa4d9-a84d-4c6e-b3c2-db2728c25fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameAct\Objects\Tech\Streams">
+      <UniqueIdentifier>{a83818ac-7ca8-4f7b-abbe-c63474ceec9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Functions">
+      <UniqueIdentifier>{2148ee23-ffaf-444c-9f75-7f887113c905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Audio">
+      <UniqueIdentifier>{6b226b68-8e88-4757-af4c-5be1b7b3380f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\BodyReader\BodyReader.cpp">
+      <Filter>ThirdParty\BodyReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Sqllite\sqlite3secure.c">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Levels\Chunk.cpp">
+      <Filter>GameAct\Levels\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Levels\Level.cpp">
+      <Filter>GameAct\Levels\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Object.cpp">
+      <Filter>GameAct\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Factories\ObjectsFactory.cpp">
+      <Filter>GameAct\Objects\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Factories\TechFactory.cpp">
+      <Filter>GameAct\Objects\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Interactor\Interactor.cpp">
+      <Filter>GameAct\Objects\Interactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\SubTypes\Area.cpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\SubTypes\Character.cpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\SubTypes\Edge.cpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\SubTypes\Shell.cpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\SubTypes\Stream.cpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Impeller.cpp">
+      <Filter>GameAct\Objects\Tech\Impeller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Saw.cpp">
+      <Filter>GameAct\Objects\Tech\Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Spike.cpp">
+      <Filter>GameAct\Objects\Tech\Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorld.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Director.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Line.cpp">
+      <Filter>GameAct\Objects\Tech\Decorators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Wind.cpp">
+      <Filter>GameAct\Objects\Tech\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Act.cpp">
+      <Filter>GameAct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Cache\Cache.cpp">
+      <Filter>Resources\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Cache\UnitedResourcesData.cpp">
+      <Filter>Resources\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Constants\Direction.cpp">
+      <Filter>Resources\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Constants\Skin.cpp">
+      <Filter>Resources\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Constants\World.cpp">
+      <Filter>Resources\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Data\Data.cpp">
+      <Filter>Resources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Data\Serializer.cpp">
+      <Filter>Resources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Constants\Policy.cpp">
+      <Filter>Resources\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\Cache\AudioFile.cpp">
+      <Filter>Resources\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Cannon.cpp">
+      <Filter>GameAct\Objects\Tech\Mechs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\Ball.cpp">
+      <Filter>GameAct\Objects\Tech\Shells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Resources\ObjectInfo.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\StaticSpike.cpp">
+      <Filter>GameAct\Objects\Tech\Spike</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAct\Objects\Tech\StaticSaw.cpp">
+      <Filter>GameAct\Objects\Tech\Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Functions\IOFunctions.cpp">
+      <Filter>ThirdParty\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Decrypter\aescrypt.c">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Decrypter\aeskey.c">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Decrypter\aestab.c">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Decrypter\aes_modes.c">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Decrypter\aes_ni.c">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Audio\Audio.cpp">
+      <Filter>ThirdParty\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ThirdParty\Audio\AudioPlayer.cpp">
+      <Filter>ThirdParty\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\BodyReader\BodyReader.hpp">
+      <Filter>ThirdParty\BodyReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Rapidxml\rapidxml.hpp">
+      <Filter>ThirdParty\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Rapidxml\rapidxml_iterators.hpp">
+      <Filter>ThirdParty\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Rapidxml\rapidxml_print.hpp">
+      <Filter>ThirdParty\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Rapidxml\rapidxml_utils.hpp">
+      <Filter>ThirdParty\Rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Sqllite\sqlite3ext.h">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Sqllite\codec.h">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Sqllite\rijndael.h">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Sqllite\sqlite3.h">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Sqllite\sha2.h">
+      <Filter>ThirdParty\Sqllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Levels\Chunk.hpp">
+      <Filter>GameAct\Levels\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Levels\Level.hpp">
+      <Filter>GameAct\Levels\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Forward.hpp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Object.hpp">
+      <Filter>GameAct\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Factories\ObjectsFactory.hpp">
+      <Filter>GameAct\Objects\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Factories\TechFactory.hpp">
+      <Filter>GameAct\Objects\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Interactor\Interactor.hpp">
+      <Filter>GameAct\Objects\Interactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\SubTypes\Area.hpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\SubTypes\Character.hpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\SubTypes\Edge.hpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\SubTypes\Shell.hpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\SubTypes\Stream.hpp">
+      <Filter>GameAct\Objects\SubTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Impeller.hpp">
+      <Filter>GameAct\Objects\Tech\Impeller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Saw.hpp">
+      <Filter>GameAct\Objects\Tech\Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Spike.hpp">
+      <Filter>GameAct\Objects\Tech\Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorld.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Director.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Line.hpp">
+      <Filter>GameAct\Objects\Tech\Decorators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Wind.hpp">
+      <Filter>GameAct\Objects\Tech\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Act.hpp">
+      <Filter>GameAct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Forward.hpp">
+      <Filter>GameAct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Cache\Cache.hpp">
+      <Filter>Resources\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Cache\UnitedResourcesData.hpp">
+      <Filter>Resources\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Forward.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Constants\Direction.hpp">
+      <Filter>Resources\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Constants\Skin.hpp">
+      <Filter>Resources\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Constants\World.hpp">
+      <Filter>Resources\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Data\Data.hpp">
+      <Filter>Resources\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Data\Serializer.hpp">
+      <Filter>Resources\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Constants\Policy.hpp">
+      <Filter>Resources\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\ObjectInfo.hpp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Resources\Cache\AudioFile.hpp">
+      <Filter>Resources\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Cannon.hpp">
+      <Filter>GameAct\Objects\Tech\Mechs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\Ball.hpp">
+      <Filter>GameAct\Objects\Tech\Shells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\StaticSpike.hpp">
+      <Filter>GameAct\Objects\Tech\Spike</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAct\Objects\Tech\StaticSaw.hpp">
+      <Filter>GameAct\Objects\Tech\Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\noncopyable.hpp">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Functions\IOFunctions.hpp">
+      <Filter>ThirdParty\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aes_via_ace.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aesopt.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aestab.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\brg_endian.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\brg_types.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aes.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aes_ni.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Audio\Audio.hpp">
+      <Filter>ThirdParty\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Audio\AudioPlayer.hpp">
+      <Filter>ThirdParty\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ThirdParty\Decrypter\aescpp.h">
+      <Filter>ThirdParty\Decrypter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

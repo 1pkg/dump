@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE world>
+<world>
+	<object name = "BackGround">
+	</object>
+	
+	<object name = "Ball">
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+
+	<object name = "Cannon">
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<animation>
+			<action name = "Fire" size = "29" duration = "0.05"></action>
+		</animation>
+	</object>
+	
+	<object name = "Impeller">
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+	
+	<object name = "Line">
+	</object>
+	
+	<object name = "Saw">
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<sound>
+			<tune name = "Def"></tune>
+		</sound>
+	</object>
+	
+	<object name = "Spike">
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<sound>
+			<tune name = "Def"></tune>
+		</sound>
+	</object>
+</world>

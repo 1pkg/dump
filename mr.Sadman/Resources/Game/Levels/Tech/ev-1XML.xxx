@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "SawTest" size = "1.0;1.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<object name = "StaticSaw" position = "0.5;0.9" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "Right" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "Left" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5"  direction = "Top" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "Bottom" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "45" additional = "8.0;0.5" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "135" additional = "8.0;0.5" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "225" additional = "8.0;0.5" >
+		</object>
+		
+		<object name = "Saw" position = "0.5;0.5" direction = "315" additional = "8.0;0.5" >
+		</object>
+		
+		<object name = "Saw" position = "0.4;0.1" direction = "Circle" additional = "2.0;0.2" >
+		</object>
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

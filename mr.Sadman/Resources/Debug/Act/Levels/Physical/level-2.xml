@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "TestSwitchers" orientation = "Vertical" size = "1.0;1.0" gravity = "10.0;0.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<!--- armer -->
+		<object name = "RectangleStaticBlock" position = "0.4;0.45" >
+		</object>
+		
+		<object name = "Armer" position = "0.4;0.525" action = "Switch">
+			<object name = "RectangleStaticBlock" position = "0.25;0.25" rotation = "270.0" additional = "Electricity" action = "Disapear" >
+			</object>
+			<object name = "RectangleStaticBlock" position = "0.4;0.25" rotation = "270.0" additional = "Radiation" >
+			</object>
+			<object name = "RectangleStaticBlock" position = "0.55;0.25" rotation = "270.0" additional = "Electricity" action = "Disapear" >
+			</object>
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.8;0.45" >
+		</object>
+		
+		<object name = "Armer" position = "0.8;0.525" action = "Switch">
+			<object name = "RectangleMovedBlock" position = "0.8;0.25" rotation = "0.0" >
+			</object>
+			<object name = "RectangleMovedBlock" position = "0.8;0.25" rotation = "180.0" >
+			</object>
+			<object name = "RectangleMovedBlock" position = "0.8;0.25" rotation = "90.0" action = "" >
+			</object>
+			<object name = "RectangleMovedBlock" position = "0.8;0.25" rotation = "270.0" action = "" >
+			</object>
+		</object>
+		<!--- armer -->
+		
+		<!--- button pushplate -->
+		<object name = "RectangleStaticBlock" position = "0.4;0.9" >
+		</object>
+		<object name = "RectangleStaticBlock" position = "0.5;0.8" >
+		</object>
+		<object name = "RectangleStaticBlock" position = "0.6;0.9" >
+		</object>
+		
+		<object name = "PushPlate" position = "0.5;0.875" action = "Push">
+		</object>
+		<object name = "Button" position = "0.415;0.9" action = "Press">
+		</object>
+		<object name = "Button" position = "0.585;0.9" action = "Press">
+		</object>
+		<!--- button pushplate -->
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "TestBlocks" orientation = "Horizontal" size = "1.0;1.0" gravity = "0.0;-10.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<!--- wall -->
+		<object name = "RectangleStaticBlock" position = "0.05;0.05" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.15" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.25" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.35" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.45" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.55" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.65" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.75" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.85" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.05;0.95" >
+		</object>
+		<!--- wall -->
+		
+		<!--- balk -->
+		<object name = "RectangleStaticBlock" position = "0.15;0.85" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.25;0.85" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.35;0.85" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.45;0.85" >
+		</object>
+		
+		<object name = "RectangleStaticBlock" position = "0.55;0.85" >
+		</object>
+		<!--- balk -->
+		
+		<!--- moved -->
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "0.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "45.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "90.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "135.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "180.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "225.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "270.0" >
+		</object>
+		
+		<object name = "RectangleMovedBlock" position = "0.5;0.5" rotation = "315.0" >
+		</object>
+		<!--- moved -->
+		
+		<!--- rotated -->
+		<object name = "RectangleRotatedBlock" position = "0.5;0.5" >
+		</object>
+		<!--- rotated -->
+		
+		<!--- dynamic -->
+		<object name = "RectangleDynamicBlock" position = "0.3;0.95" >
+		</object>
+		
+		<object name = "RectangleDynamicBlock" position = "0.4;0.95" >
+		</object>
+		
+		<object name = "RectangleDynamicBlock" position = "0.5;0.95" >
+		</object>
+		
+		<object name = "CircleDynamicBlock" position = "0.3;1.1" >
+		</object>
+		
+		<object name = "CircleDynamicBlock" position = "0.5;1.1" >
+		</object>
+		<!--- dynamic -->
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

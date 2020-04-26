@@ -1,0 +1,180 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE resources>
+<resources>
+	<object name = "BackGround">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "RectangleBlock">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "TriangleBlock">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+	
+	<object name = "CircleBlock">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Armer">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "On"></body>
+			<body name = "Off"></body>
+		</physic>
+		<animation>
+			<action name = "On" frames = "5" duration = "0.1"></action>
+			<action name = "Off" frames = "5" duration = "0.1"></action>
+		</animation>
+		<audio>
+			<track name = "Switch"></track>
+		</audio>
+	</object>
+	
+	<object name = "Button">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Spring">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Saw">
+		<representation type = "sprite"></representation>
+		<audio>
+			<track name = "Rotate"></track>
+		</audio>
+	</object>
+	
+	<object name = "Pivot">
+		<representation type = "sprite"></representation>
+	</object>
+
+	<object name = "Alebarda">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+	
+	<object name = "SpikedBall">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Luke">
+		<representation type = "sprite"></representation>
+		<animation>
+			<action name = "Open" frames = "5" duration = "0.3"></action>
+			<action name = "Lock" frames = "5" duration = "0.3"></action>
+		</animation>
+	</object>
+	
+	<object name = "Ram">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "RamPiston">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+	
+	<object name = "Trampoline">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<animation>
+			<action name = "Jump" frames = "5" duration = "0.1"></action>
+		</animation>
+		<audio>
+			<track name = "Jump"></track>
+		</audio>
+	</object>
+	
+	<object name = "PneumaticGun">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<audio>
+			<track name = "Push"></track>
+		</audio>
+	</object>
+	
+	<object name = "AssaultTank">
+		<representation type = "skeleton" count = "1"></representation>
+	</object>
+	
+	<object name = "Grenade">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "GlueBomb">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Impeller">
+		<representation type = "sprite"></representation>
+	</object>
+	
+	<object name = "Pump">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<audio>
+			<track name = "Pull"></track>
+		</audio>
+	</object>
+	
+	<object name = "AirGun">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<audio>
+			<track name = "Push"></track>
+		</audio>
+	</object>
+	
+	<object name = "Generator">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+		<animation>
+			<action name = "Blik" frames = "5" duration = "0.2"></action>
+		</animation>
+	</object>
+	
+	<object name = "TeslaPillars">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+			<body name = "Blik"></body>
+		</physic>
+		<animation>
+			<action name = "Blik" frames = "5" duration = "0.2"></action>
+		</animation>
+		<audio>
+			<track name = "Blik"></track>
+		</audio>
+	</object>
+	
+	<object name = "Magnite">
+		<representation type = "sprite"></representation>
+		<physic>
+			<body name = "Def"></body>
+		</physic>
+	</object>
+	
+	<object name = "Reactor">
+		<representation type = "sprite"></representation>
+	</object>
+</resources>

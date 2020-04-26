@@ -1,0 +1,107 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE defaults>
+<defaults>
+	<object name = "RectangleStaticBlock" size = "0.1;0.1" zindex = "3" mask = "1" collide = "1" contact = "1" >
+	</object>
+	
+	<object name = "RectangleMovedBlock" size = "0.05;0.05" additional = "4.0;1.0" zindex = "3" action = "Move" >
+	</object>
+	
+	<object name = "RectangleRotatedBlock" size = "0.05;0.05" additional = "4.0;1.0" zindex = "3" action = "Rotate" >
+	</object>
+	
+	<object name = "RectangleDynamicBlock" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "TriangleStaticBlock" size = "0.1;0.1" zindex = "3" >
+	</object>
+	
+	<object name = "TriangleRotatedBlock" size = "0.05;0.05" zindex = "3" action = "Rotate" >
+	</object>
+	
+	<object name = "TriangleDynamicBlock" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "CircleStaticBlock" size = "0.1;0.1" zindex = "3" >
+	</object>
+	
+	<object name = "CircleRotatedBlock" size = "0.05;0.05" zindex = "3" action = "Rotate" >
+	</object>
+	
+	<object name = "CircleDynamicBlock" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	
+	<object name = "Armer" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "Button" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "PushPlate" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	
+	<object name = "Spring" size = "0.01;0.01" zindex = "3" >
+	</object>
+	
+	<object name = "StaticSaw" size = "0.03;0.03" additional = "1.0" zindex = "3" >
+	</object>
+	
+	<object name = "MovedSaw" size = "0.03;0.03" additional = "4.0;1.0" zindex = "3" action = "Move" >
+	</object>
+	
+	<object name = "RotatedSaw" size = "0.03;0.03" additional = "4.0;1.0" zindex = "3" action = "Rotate" >
+	</object>
+	
+	<object name = "DynamicSaw" size = "0.03;0.03" zindex = "3" >
+	</object>
+	
+	<object name = "PendulumAlebarda" additional = "5.0;1.5" size = "0.04;0.04" zindex = "3" action = "Move" >
+	</object>
+	
+	<object name = "PendulumSpikedBall" additional = "5.0;1.5" size = "0.04;0.04" zindex = "3" action = "Move" >
+	</object>
+	
+	<object name = "Luke" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "Ram" additional = "6.0;8.0" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	<object name = "Press" additional = "6.0;8.0" size = "0.08;0.08" rotation = "90.0" zindex = "3" >
+	</object>
+	
+	<object name = "Trampoline" size = "0.05;0.05" zindex = "3" >
+	</object>
+	
+	
+	<object name = "PneumaticGun" additional = "8.0;Grenade;GlueBomb;SpikedBall;DynamicSaw;RectangleDynamicBlock" size = "0.08;0.08" zindex = "3" action = "Fire" >
+	</object>
+	
+	<object name = "AssaultTank" additional = "0.1;Grenade;GlueBomb;SpikedBall;DynamicSaw;RectangleDynamicBlock;CircleDynamicBlock;TriangleDynamicBlock" size = "0.1;0.1" zindex = "3" action = "Fire" >
+	</object>
+	
+	
+	<object name = "Impeller" additional = "4.0;6.0" size = "0.03;0.03" zindex = "3" action = "Rotate" >
+	</object>
+	
+	<object name = "AirGun" additional = "10.0;8.0" size = "0.05;0.05" zindex = "3" action = "Push" >
+	</object>
+	
+	<object name = "Pump" additional = "5.0" size = "0.04;0.04" zindex = "3" ction = "Pull" >
+	</object>
+	
+	
+	<object name = "Generator" size = "0.05;0.05" zindex = "3" action = "Blick" >
+	</object>
+	
+	<object name = "TeslaPillars" size = "0.1;0.1" zindex = "3" action = "Blick" >
+	</object>
+	
+	<object name = "Magnite" size = "0.03;0.03" zindex = "3" action = "On" >
+	</object>
+	
+	<object name = "Reactor" size = "0.05;0.05" zindex = "3" action = "On" >
+	</object>
+</defaults>

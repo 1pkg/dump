@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "CannonTest" size = "1.0;1.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<object name = "Cannon" position = "0.3;0.3" direction = "Right" additional = "Ball" >
+		</object>
+		
+		<object name = "Cannon" position = "0.7;0.7" direction = "Left" additional = "Ball" >
+		</object>
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

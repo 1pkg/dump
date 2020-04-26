@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "TestAssaultTank" orientation = "Vertical" size = "1.0;1.0" gravity = "0.0;0.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<object name = "AssaultTank" position = "0.5;0.5" >
+		</object>
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

@@ -1,0 +1,131 @@
+
+skeleton.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon_0000_2-leg-bot
+  rotate: false
+  xy: 2, 306
+  size: 53, 74
+  orig: 53, 74
+  offset: 0, 0
+  index: -1
+cannon_0001_2-leg-mid
+  rotate: false
+  xy: 451, 903
+  size: 63, 87
+  orig: 63, 87
+  offset: 0, 0
+  index: -1
+cannon_0001_mid
+  rotate: false
+  xy: 2, 795
+  size: 212, 195
+  orig: 212, 195
+  offset: 0, 0
+  index: -1
+cannon_0002_2-leg-top
+  rotate: false
+  xy: 2, 2
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+cannon_0002_fin
+  rotate: true
+  xy: 108, 596
+  size: 197, 116
+  orig: 197, 116
+  offset: 0, 0
+  index: -1
+cannon_0003_3-leg-bot
+  rotate: false
+  xy: 2, 239
+  size: 53, 65
+  orig: 53, 65
+  offset: 0, 0
+  index: -1
+cannon_0004_3-leg-mid
+  rotate: false
+  xy: 2, 382
+  size: 57, 76
+  orig: 57, 76
+  offset: 0, 0
+  index: -1
+cannon_0005_3-leg-top
+  rotate: true
+  xy: 2, 173
+  size: 64, 52
+  orig: 64, 52
+  offset: 0, 0
+  index: -1
+cannon_0006_body
+  rotate: true
+  xy: 2, 559
+  size: 234, 104
+  orig: 234, 104
+  offset: 0, 0
+  index: -1
+cannon_0007_1-leg-top
+  rotate: false
+  xy: 319, 859
+  size: 46, 42
+  orig: 46, 42
+  offset: 0, 0
+  index: -1
+cannon_0008_1-leg-mid
+  rotate: false
+  xy: 2, 460
+  size: 68, 97
+  orig: 68, 97
+  offset: 0, 0
+  index: -1
+cannon_0009_1-leg-bot
+  rotate: false
+  xy: 2, 52
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+cannon_0010_4-leg-top
+  rotate: false
+  xy: 516, 907
+  size: 68, 43
+  orig: 68, 43
+  offset: 0, 0
+  index: -1
+cannon_0011_4-leg-mid
+  rotate: true
+  xy: 216, 805
+  size: 54, 74
+  orig: 54, 74
+  offset: 0, 0
+  index: -1
+cannon_0012_4-leg-bot
+  rotate: false
+  xy: 2, 111
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+cannon_0013_head
+  rotate: false
+  xy: 216, 903
+  size: 233, 87
+  orig: 233, 87
+  offset: 0, 0
+  index: -1
+cannon_0014_bole-base
+  rotate: false
+  xy: 516, 952
+  size: 95, 38
+  orig: 95, 38
+  offset: 0, 0
+  index: -1
+cannon_0015_bole-fin
+  rotate: false
+  xy: 216, 861
+  size: 101, 40
+  orig: 101, 40
+  offset: 0, 0
+  index: -1

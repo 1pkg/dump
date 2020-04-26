@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE level>
+<level name = "SpikeTest" size = "1.0;1.0" >
+	<chunk>
+	</chunk>
+	
+	<chunk>
+		<object name = "Spike" position = "0.4;0.5" direction = "Right" >
+		</object>
+		
+		<object name = "Spike" position = "0.6;0.5" direction = "Left" >
+		</object>
+		
+		<object name = "Spike" position = "0.5;0.3" direction = "Top" >
+		</object>
+		
+		<object name = "Spike" position = "0.5;0.7" direction = "Bottom" >
+		</object>
+		
+		<object name = "Spike" position = "0.6;0.8" direction = "45" >
+		</object>
+		
+		<object name = "Spike" position = "0.8;0.8" direction = "135" >
+		</object>
+		
+		<object name = "Spike" position = "0.8;0.6" direction = "225" >
+		</object>
+		
+		<object name = "Spike" position = "0.6;0.6" direction = "315" >
+		</object>
+	</chunk>
+	
+	<chunk>
+		<object name = "StaticSpike" position = "0.4;0.5" direction = "Right" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.6;0.5" direction = "Left" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.5;0.4" direction = "Top" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.5;0.6" direction = "Bottom" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.6;0.8" direction = "45" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.8;0.8" direction = "135" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.8;0.6" direction = "225" >
+		</object>
+		
+		<object name = "StaticSpike" position = "0.6;0.6" direction = "315" >
+		</object>
+	</chunk>
+	
+	<chunk>
+	</chunk>
+</level>

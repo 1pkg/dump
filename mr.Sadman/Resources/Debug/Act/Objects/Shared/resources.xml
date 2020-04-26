@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE resources>
+<resources>
+	<object name = "Wind">
+		<audio>
+			<track name = "Def"></track>
+		</audio>
+	</object>
+	
+	<object name = "Electricity">
+		<audio>
+			<track name = "Def"></track>
+		</audio>
+	</object>
+	
+	<object name = "Radiation">
+		<audio>
+			<track name = "Def"></track>
+		</audio>
+	</object>
+	
+	<object name = "Explosion">
+		<audio>
+			<track name = "Def"></track>
+		</audio>
+	</object>
+</resources>

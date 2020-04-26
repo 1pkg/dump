@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE objects>
+<objects>
+	<object name = "BackGround" size = "1.0;1.0" zindex = "0" >
+	</object>
+	
+	<object name = "StaticSaw" size = "0.05;0.05" additional = "0.5" zindex = "2" action = "Run" >
+	</object>
+	
+	<object name = "Saw" size = "0.05;0.05" additional = "6.0;0.5" zindex = "2" direction = "Right" action = "Run" >
+	</object>
+	
+	<object name = "Impeller" size = "0.05;0.05" additional = "1.0;5.0" zindex = "2" direction = "Right" action = "Run" >
+	</object>
+	
+	<object name = "StaticSpike" size = "0.1;0.04" zindex = "2" direction = "Right" >
+	</object>
+	
+	<object name = "Spike" size = "0.1;0.04" additional = "2.0;0.5" zindex = "2" direction = "Right" action = "Run"  >
+	</object>
+	
+	<object name = "Cannon" size = "0.3;0.3" additional = "Ball" zindex = "2" direction = "Left" action = "EndlessFire" >
+	</object>
+	
+	<object name = "Ball" size = "0.1;0.1" zindex = "2" >
+	</object>
+</objects>
