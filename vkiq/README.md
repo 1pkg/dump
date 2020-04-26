@@ -4,7 +4,7 @@
 
 #### TECHNOLOGIES
 
-vkiq were built with:
+vkiq was built with:
 
 -   nodejs
 -   express

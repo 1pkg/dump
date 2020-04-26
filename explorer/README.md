@@ -6,7 +6,7 @@ git history for explorer was completely lost at some point of time as well as pr
 
 #### TECHNOLOGIES
 
-explorer were built with:
+explorer was built with:
 
 -   php5.6
 -   flight
