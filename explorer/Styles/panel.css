@@ -1,0 +1,62 @@
+.navigation-panel
+{
+    border-radius: 16px 16px 0 0;
+    height: 34px;
+    background: rgba(183,222,237,1);
+    background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.85) 50%, rgba(183,222,237,0.7) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(50%, rgba(33,180,226,0.85)), color-stop(100%, rgba(183,222,237,0.7)));
+    background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.85) 50%, rgba(183,222,237,0.7) 100%);
+    background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.85) 50%, rgba(183,222,237,0.7) 100%);
+    background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(33,180,226,0.85) 50%, rgba(183,222,237,0.7) 100%);
+    background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(33,180,226,0.85) 50%, rgba(183,222,237,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+}
+
+.arrow-button
+{
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.arrow-button[disabled]:focus
+{
+}
+
+.arrow-button[disabled]:hover
+{
+}
+
+.arrow-button[disabled]:active
+{
+}
+
+.form-element-inline
+{
+    float: left;
+}
+
+#back
+{
+    margin-left: 8px;
+}
+
+.text-box
+{
+    width: 600px;
+    height: 16px;
+}
+
+#find
+{
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 8px;
+}
+
+#path
+{
+    margin-top: 8px;
+    margin-left: 32px;
+}
