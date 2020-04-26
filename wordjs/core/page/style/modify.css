@@ -1,0 +1,41 @@
+.page {
+    position: relative;
+    margin-top: 50pt;
+
+    height: auto;
+    width: 100%;
+}
+
+.page:last-child {
+    margin-bottom: 50pt;
+}
+
+.contentContainer {
+    position: relative;
+    margin-left: 250pt;
+
+    height: 100%;
+    width: 575pt;
+
+    box-shadow: 1pt 1pt 15pt;
+    background: #fff;
+}
+
+.textContainer {
+    position: relative;
+
+    height: auto;
+
+    padding-left: 50pt;
+    padding-right: 37.5pt;
+    padding-top: 37.5pt;
+    margin-bottom: 50pt;
+
+    overflow: hidden;
+
+    font: 14pt/26pt 'Times New Roman', Times, serif;
+    white-space: pre-line;
+    text-align: justify;
+
+    z-index: 1;
+}
