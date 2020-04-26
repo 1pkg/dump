@@ -1,0 +1,46 @@
+extends layout.pug
+
+block content
+  div.content
+      include disclaimer.pug
+      form#analyze(style="width: 70%; margin-top: 20%; margin-left: 15%;")
+        div.form-group
+            input#domain.form-control.input-lg(type="text", name="domain", placeholder="https://vk.com/id1", style="text-align: center;")
+            span.help-block(style="text-align: center;")
+
+  script.
+        $(() => {
+            $('#domain').one('focus', () => {
+                $('#disclaimer').modal('show');
+                $('#domain').blur();
+            });
+
+            $('body').on('click', '.glyphicon', () => {
+                $('.wall').toggle(200);
+                if ($('.glyphicon').hasClass('glyphicon-chevron-down')) {
+                    $('.glyphicon').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+                } else {
+                    $('.glyphicon').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+                }
+            });
+
+            $('#analyze').submit((event) => {
+                event.preventDefault();
+                $.ajax({
+                    url: '/analyze',
+                    data: {'domain': $('#domain').val()},
+                    type: 'post',
+                    success: (response) => {
+                        $('#domain').parent().removeClass('has-error');
+                        $('#domain').siblings('.help-block').text('');
+                        $('.content > .result').remove();
+                        if (response.message) {
+                            $('#domain').parent().addClass('has-error');
+                             $('#domain').siblings('.help-block').text(response.message);
+                        } else {
+                            $('.content').append(response);
+                        }
+                    }
+                });
+            });
+        });

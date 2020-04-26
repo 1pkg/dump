@@ -1,0 +1,34 @@
+extends layout.pug
+
+block content
+  div.content(style="margin-top:5%; margin-bottom:5%;")
+    each result in results
+        div.result(style="width: 70%; margin-left: 15%; text-align: center;")
+            div.panel
+                div.panel-body
+                    span.h3 #{result.domain}|#{result.description} - #{result.index}&nbsp;IQ&nbsp;
+                    span.glyphicon.glyphicon-chevron-down
+                    table.wall.table.table-bordered.table-responsive(style="display: none;")
+                        thead
+                            tr
+                                th(colspan="2", style="text-align: center;") #
+                                th IQ
+                        each post in result.posts
+                            tr
+                                td
+                                    img.media-object(style="width: 75px; height: 75px;", src=post.image)
+                                td
+                                    span.h4(style="text-align:left;")= post.preview
+                                td
+                                    span.h4= post.index
+  script.
+        $(() => {
+            $('body').on('click', '.glyphicon', function () {
+                $(this).siblings('.wall').toggle(200);
+                if ($(this).hasClass('glyphicon-chevron-down')) {
+                    $(this).removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+                } else {
+                    $(this).removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+                }
+            });
+        });
