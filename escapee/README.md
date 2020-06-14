@@ -4,7 +4,7 @@
 
 assets in this project are provided only for view purpose and aren't obeyed by the licence, you need contact their owners to use them
 
-git history for escapee was completely lost at some point of time as well as proper version of dependencies  
+git history for escapee was completely lost at some point of time as well as proper version of dependencies
 
 escapee had been having rewriting attempt, see related v1 and v2
 
@@ -33,9 +33,3 @@ diamond knight
 obsidian knight
 
 ---
-
-##### UNMAINTAINED
-
-#### LICENSE
-
-escapee is [MIT licensed](LICENSE)

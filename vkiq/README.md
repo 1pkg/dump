@@ -6,12 +6,6 @@
 
 vkiq was built with:
 
--   nodejs
--   express
--   brain
-
-##### UNMAINTAINED
-
-#### LICENSE
-
-vkiq is [MIT licensed](LICENSE)
+- nodejs
+- express
+- brain
