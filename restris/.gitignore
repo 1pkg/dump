@@ -1,0 +1,11 @@
+/client/dump/
+/client/node_modules/
+/client/parameters.json
+/client/npm-debug.log
+
+/api/dump
+/api/var/cache/
+/api/var/logs/
+/api/vendor/
+/api/app/config/parameters.yml
+/api/.web-server-pid

@@ -14,6 +14,7 @@
 - [tledit](tledit)
 - [vkiq](vkiq)
 - [wordjs](wordjs)
+- [restris](restris)
 
 #### LICENSE
 

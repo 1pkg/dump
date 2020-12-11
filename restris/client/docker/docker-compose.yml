@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    nginx:
+        build:
+            context: ./../
+            dockerfile: docker/nginx/Dockerfile
+        command: nginx
+        restart: always
+        volumes:
+            - ./../dump/log:/var/logs:rw
+            - ./../../api:/var/www/restris:rw
+        logging:
+            driver: json-file
+            options:
+                max-size: '100m'
+                max-file: '10'
+        ports:
+            - 80:80

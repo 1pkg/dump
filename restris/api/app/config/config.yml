@@ -1,0 +1,33 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: services.yml }
+
+framework:
+    secret: '%secret%'
+    default_locale: '%locale%'
+    http_method_override: true
+    templating:
+        engines: ['twig']
+    router:
+        resource: '%kernel.project_dir%/app/config/routing.yml'
+        strict_requirements: ~
+
+twig:
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    paths:
+        '%kernel.root_dir%/../templates': templates
+
+monolog:
+    handlers:
+        main:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: warning
+
+snc_redis:
+    clients:
+        main:
+            type: predis
+            alias: main
+            dsn: '%redis_dns%'

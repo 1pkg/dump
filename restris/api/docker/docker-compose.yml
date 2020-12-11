@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+    redis:
+        build: ./redis
+        command: redis-server /etc/redis/redis.conf
+        restart: always
+        volumes:
+            - ./../dump/data/storage:/data:rw
+            - ./../dump/log:/var/logs:rw
+        logging:
+            driver: json-file
+            options:
+                max-size: '100m'
+                max-file: '10'
+
+    fsgi:
+        build:
+            context: ./../
+            dockerfile: docker/fsgi/Dockerfile
+        command: php-fpm7.2 --nodaemonize
+        restart: always
+        volumes:
+            - ./../dump/log:/var/logs:rw
+            - ./../../api:/var/www/restris:rw
+        logging:
+            driver: json-file
+            options:
+                max-size: '100m'
+                max-file: '10'

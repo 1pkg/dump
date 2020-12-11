@@ -1,0 +1,4 @@
+parameters:
+    secret: 'lolipop'
+    locale: 'en'
+    redis_dns: 'redis://@storage:6379'

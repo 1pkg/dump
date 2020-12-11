@@ -1,0 +1,9 @@
+<div style="flex-grow: 1; display: flex; flex-direction: column;">
+{% for row in grid %}
+    <div style="display: flex; flex-grow: {{ grid|length }};">
+    {% for cell in row %}
+        <div style="border: 0.1em solid; flex-grow: {{ row|length }}; {% if (cell) %} background-color: #424242; {% endif %}"></div>
+    {% endfor %}
+    </div>
+{% endfor %}
+</div>

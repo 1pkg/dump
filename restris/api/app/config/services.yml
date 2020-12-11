@@ -1,0 +1,28 @@
+services:
+    _defaults:
+        autowire: false
+        autoconfigure: true
+        public: true
+
+    acess:
+        class: Tetris\EventListener\Access
+        tags:
+            - { name: kernel.event_listener, event: kernel.response }
+
+    fabric:
+        class: Tetris\Services\Fabric
+
+    storage:
+        class: Tetris\Services\Storage
+        arguments: ['@snc_redis.main']
+
+    rating:
+        class: Tetris\Services\Rating
+        arguments: ['@snc_redis.main']
+
+    batch:
+        class: Tetris\Services\Batch
+
+    manager:
+        class: Tetris\Services\Manager
+        arguments: ['@fabric', '@storage', '@rating', '@batch']
